@@ -1,27 +1,62 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: lightblue;
+* {
+    box-sizing: border-box;
 }
 
-h1 {
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #333;
     color: white;
+    padding: 20px;
     text-align: center;
 }
 
-img {
+.sidebar {
+    float: left;
+    width: 25%;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+.main {
+    float: right;
+    width: 75%;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.footer {
+    clear: both;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.profile {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
 }
 
-p {
-    color: black;
-    font-size: 18px;
+.post {
+    margin-bottom: 20px;
 }
 
-ul, ol {
-    color: black;
-    font-size: 16px;
+.post h3 {
+    color: #333;
+}
+
+.post p {
+    color: #666;
+}
+
+.post a {
+    color: #f60;
 }
